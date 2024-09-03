@@ -40,8 +40,9 @@ body::-webkit-scrollbar{
   display: flex;
   justify-content: center;
   align-items: center;
-  backdrop-filter: blur(40px);
   z-index: -9;
+  backdrop-filter: blur(40px);
+  /* filter: blur(40px); */
 }
 
                        /* <----- header nav bar ----->*/
@@ -352,6 +353,19 @@ body::-webkit-scrollbar{
   display: flex;
   justify-content: center;
 }
+.home_about_discription_text{
+  font-size: 15px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 3rem;
+  /* width: 30rem; */
+}
+.home_about_discription_text_spn1{
+  float: inline-end;
+}
+/* .home_about_discription_text_spn2{
+  float: inline-start;
+} */
 #projectImage{
   display: none;
 }
